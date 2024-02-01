@@ -8,9 +8,13 @@ i will try to arrange it good for using this repo as a book to remember what i d
 
 # Front: React: 3000
 
-# Back: Node: 8081
+# Back: Node Next: 8091
+
+# Back: Nest: 8090
+http://localhost:8090/test
 
 # Back: Spring Boot: 8080 
+http://localhost:8080/test
 
 # Batch
 Nothing special here just some .bat or .sh i use on my projects to automatise somethings
