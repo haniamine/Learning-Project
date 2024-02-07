@@ -13,7 +13,7 @@ export class HomeComponent {
   constructor(private router: Router) { }
 
   goToAbout() {
-    this.router.navigate(['/about']);
+    this.router.navigate(['/test/about']);
   }
 
 }

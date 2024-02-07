@@ -4,18 +4,18 @@
   </div>
 </div>
 <div>Test Navigation with flat buttons</div>
-<button routerLink="/home">Home</button>
-<button style="margin-left: 10px" routerLink="/about">About</button>
-<button style="margin-left: 10px" routerLink="/form">Form</button>
-<a style="margin-left: 2rem" routerLink="/">Go to root page</a>
+<button routerLink="/test/home">Home</button>
+<button style="margin-left: 10px" routerLink="/test/about">About</button>
+<button style="margin-left: 10px" routerLink="/test/form">Form</button>
+<a style="margin-left: 2rem" routerLink="/test">Go to root page</a>
 
-<div>Test Navigation with for loop</div>
+<div>Test Navigation with for loop ( Deprecated )</div>
 
 <div>
   <button
     style="margin-left: 10px"
     *ngFor="let item of routes"
-    routerLink="{{ item.path }}"
+    [routerLink]="item.path"
   >
     {{ item.title }}
   </button>
