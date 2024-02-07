@@ -8,9 +8,9 @@ i will try to arrange it good for using this repo as a book to remember what i d
 
 # Front: React: 3000
 
-# Front: Angular: 3000
+# Front: Angular: 4200
 
-# Back: Next: 8091
+# Front: Next: 3001
 
 # Back: Nest: 8090
 http://localhost:8090/test

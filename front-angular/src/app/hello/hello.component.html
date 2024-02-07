@@ -1,0 +1,22 @@
+<div class="content">
+  <div class="left-side">
+    <h1>Hello, {{ title }}</h1>
+  </div>
+</div>
+<div>Test nav buttons</div>
+<button routerLink="/home">Home</button>
+<button style="margin-left: 10px" routerLink="/about">About</button>
+<button style="margin-left: 10px" routerLink="/form">Form</button>
+<a style="margin-left: 2rem" routerLink="/">Go to root page</a>
+
+<div>Test with for</div>
+
+<div>
+  <button
+    style="margin-left: 10px"
+    *ngFor="let item of routes"
+    routerLink="{{ item.path }}"
+  >
+    {{ item.title }}
+  </button>
+</div>
