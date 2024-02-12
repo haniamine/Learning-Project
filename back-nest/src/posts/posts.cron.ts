@@ -9,7 +9,7 @@ export class PostsCron {
 
   constructor(private readonly postsService: PostsService) {}
 
-  @Cron('*/15 * * * *')
+  @Cron('*/30 * * * *')
   handleCron() {
     console.log('test');
     this.logger.debug('Creating new post', process.env.QUOTE_KEY);
