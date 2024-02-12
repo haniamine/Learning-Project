@@ -6,10 +6,10 @@ import { HelloComponent } from './hello/hello.component';
 import { TestFormComponent } from './test-form/test-form.component';
 
 export const routes: Routes = [
-  { path: 'test', component: HelloComponent, title:"Test Page" },
-  { path: 'test/form', component: TestFormComponent, title:"Form" },
-  { path: 'test/home', component: HomeComponent, title:"Home" },
-  { path: 'test/about', component: AboutComponent, title:"About" },
+  { path: 'test', component: HelloComponent, title: 'Test Page' },
+  { path: 'test/form', component: TestFormComponent, title: 'Form' },
+  { path: 'test/home', component: HomeComponent, title: 'Home' },
+  { path: 'test/about', component: AboutComponent, title: 'About' },
 ];
 
 @NgModule({
