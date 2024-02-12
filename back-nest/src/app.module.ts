@@ -19,6 +19,7 @@ import { UsersModule } from './users/users.module';
       database: 'learning_db',
       synchronize: true,
       logging: true,
+      migrationsRun: false,
     }),
     ScheduleModule.forRoot(),
     UsersModule,
